@@ -90,11 +90,10 @@ export default function App() {
                 <Text style={styles.pokemonPeso}>defense: {pokemonEscolhido2.defense}</Text>
                 <Text style={styles.pokemonPeso}>speed: {pokemonEscolhido2.speed}</Text>
                 <Text style={styles.pokemonPeso}>media: {pokemonEscolhido2.media}</Text>
-          <Button title="Sortear Pokemon" onPress={() => sortearIdPokemon2()} />
               </View>
             </View>
              )}
-
+        <Button title="Sortear Pokemon" onPress={() => sortearIdPokemon2()} />
         </View>
 
       </ScrollView>
